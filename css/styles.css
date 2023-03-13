@@ -72,7 +72,6 @@ body {
   color: var(--title-text-color);
 }
 
-
 .menu-link {
   font-weight: 500;
   color: var(--title-text-color);
@@ -143,6 +142,6 @@ body {
   background-color: var(--primary-background-color);
 }
 .logo-footer-part {
-    color: #f4f4fd;
-  }
+  color: #f4f4fd;
+}
 /* ======================/Footer==================== */
