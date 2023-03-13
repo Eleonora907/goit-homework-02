@@ -4,8 +4,18 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #404bbf;
+  --main-background-color: #ffffff;
   --primary-background-color: #2e2f42;
   --secondary-background-color: #f4f4fd;
+  --filter-btn-color: #4d5ae5;
+  --filter-btn-background-color: #e7e9fc;
+  --filter-btn-accent-text-color: #ffffff;
+  --logo-main-color: #4d5ae5;
+  --hero-btn-text-color: #ffffff;
+  --hero-btn-background-color: #4d5ae5;
+  --hero-title-text-color: #ffffff;
+  --footer-text-color: #e7e9fc;
+  --logo-footer-text-color: #f4f4fd;
 }
 .list {
   list-style: none;
@@ -19,7 +29,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: var(--main-background-color);
   color: var(--primary-text-color);
 }
 /* =======================Components================================ */
@@ -47,15 +57,15 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color: var(--filter-btn-color);
+  background-color: var(--filter-btn-background-color);
   border: transparent;
   cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--filter-btn-accent-text-color);
+  background-color: var(--accent-color);
 }
 /* =======================/Components================================ */
 
@@ -66,7 +76,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #4d5ae5;
+  color: var(--logo-main-color);
 }
 .logo-header-part {
   color: var(--title-text-color);
@@ -109,13 +119,14 @@ body {
 }
 
 .hero-btn {
+  font-family: "Roboto"; sans-sherif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--hero-btn-text-color);
+  background-color: var(--hero-btn-background-color);
   border-color: transparent;
 }
 
@@ -129,19 +140,19 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--hero-title-text-color);
 }
 
 /* =================/HERO========================== */
 
 /*========================Footer=====================*/
 .footer-desc {
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
 .footer-section {
   background-color: var(--primary-background-color);
 }
 .logo-footer-part {
-  color: #f4f4fd;
+  color: var(--logo-footer-text-color);
 }
 /* ======================/Footer==================== */
