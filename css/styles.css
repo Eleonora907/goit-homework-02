@@ -67,6 +67,11 @@ body {
   color: var(--filter-btn-accent-text-color);
   background-color: var(--accent-color);
 }
+
+.current-link {
+    font-weight: 500;
+    color: var(--accent-color);
+}
 /* =======================/Components================================ */
 
 /* HEADER */
